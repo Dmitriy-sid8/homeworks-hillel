@@ -2,30 +2,18 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>HOMEWORK_2</title>
+	<title>HOMEWORK_3</title>
 </head>
 <body>
 	<head>
 		<script type="text/javascript">
-			var age = prompt('Сколько тебе лет?');
 
-			if (age == 1) {
-			  	alert( (age) + 'Год' );
-			} else if (age >= 2 && age <= 4){
-			  	alert( (age) + 'Года' );
-			} else if (age >= 4 && age <= 20){
-			  	alert( (age) + 'Лет' );
-			} else if (age == 21){
-			  	alert( (age) + 'Год' );
-			} else if (age >= 22 && age <= 24){
-			  	alert( (age) + 'Года' );
-			} else if (age >= 24 && age <= 30){
-			  	alert( (age) + 'Лет' );    
-			} else if (age == 0){
-			  	alert( 'Слишком мало' ); 
-			} else if (age >= 31){
-			  	alert( 'Пора не пенсию' ); 
+			var j = prompt('Введите число'), triangle = '';
+			for (i=0; i<j; i++){
+				triangle += '*';
+				console.log(triangle);
 			}
+			
 		</script>
 	</head>
 </body>
